@@ -148,8 +148,8 @@ function drawFaceMesh(x, y, w, h, vw, vh) {
     const gg  = capture.pixels[idx + 1] || 0;
     const bb  = capture.pixels[idx + 2] || 0;
 
-    stroke(255, 255, 0, 90);
-    strokeWeight(1.8);
+    stroke(255, 230, 0, 120);
+    strokeWeight(2);
     fill(rr, gg, bb);
 
     // 映射到畫布框
